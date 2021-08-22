@@ -1,0 +1,15 @@
+<script>
+	import Navbar from '$lib/Navbar.svelte';
+	import '../app.css';
+</script>
+
+<Navbar />
+<main>
+	<slot />
+</main>
+
+<style>
+	main {
+		margin: 2rem;
+	}
+</style>
