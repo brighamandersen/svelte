@@ -9,7 +9,7 @@
 </svelte:head>
 
 <main>
-	<h1>Welcome to home</h1>
+	<h1>Welcome Home</h1>
 </main>
 <footer>
 	<a href="/pager">Next Page</a>
