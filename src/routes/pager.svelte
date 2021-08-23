@@ -50,7 +50,7 @@
 <style>
 	.page-container {
 		width: 100%;
-		height: 600px;
+		height: 50vh;
 		background: rgb(241, 241, 241);
 		border: 1px solid black;
 	}
