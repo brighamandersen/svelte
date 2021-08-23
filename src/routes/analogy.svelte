@@ -11,13 +11,19 @@
 <main>
 	<h1>Analogy</h1>
 	<div class="radio-group">
-		<label>
+		<label class="red-text">
 			<input type="radio" bind:group={inSync} value={false} />
 			Out-of-Sync
+			{#if !inSync}
+				❌
+			{/if}
 		</label>
-		<label>
+		<label class="green-text">
 			<input type="radio" bind:group={inSync} value={true} />
 			In-Sync
+			{#if inSync}
+				✅
+			{/if}
 		</label>
 	</div>
 	<div class="text-inputs">
@@ -47,5 +53,18 @@
 
 	.text-inputs div {
 		margin: 1rem 0;
+	}
+
+	label {
+		font-weight: bold;
+		font-size: large;
+	}
+
+	.green-text {
+		color: green;
+	}
+
+	.red-text {
+		color: red;
 	}
 </style>
