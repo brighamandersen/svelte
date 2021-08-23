@@ -9,6 +9,10 @@
 </nav>
 
 <style>
+	nav {
+		margin: 2rem;
+	}
+
 	h1 {
 		font-size: 60px;
 		font-weight: bold;
