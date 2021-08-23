@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Languages</title>
+	<title>Languages - Svelter</title>
 </svelte:head>
 
 <h1>Here's a list of programming languages</h1>

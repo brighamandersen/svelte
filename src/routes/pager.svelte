@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-	<title>Pager</title>
+	<title>Pager - Svelter</title>
 </svelte:head>
 
 <h1>Choose a page</h1>
@@ -32,7 +32,6 @@
 	<button on:click={() => changePage(1)} class={currentPage == 1 && 'active'}> Page 1 </button>
 	<button on:click={() => changePage(2)} class={currentPage == 2 && 'active'}> Page 2 </button>
 	<input type="text" placeholder="Enter pg number" bind:value={currentPage} />
-	{currentPage}
 </div>
 <div class="page-container">
 	{#if currentPage == 1}
@@ -50,7 +49,7 @@
 
 <style>
 	.page-container {
-		width: 90vw;
+		width: 100%;
 		height: 600px;
 		background: rgb(241, 241, 241);
 		border: 1px solid black;

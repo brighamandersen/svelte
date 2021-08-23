@@ -45,7 +45,7 @@
 </script>
 
 <svelte:head>
-	<title>Todo</title>
+	<title>Todo - Svelter</title>
 </svelte:head>
 
 <main>

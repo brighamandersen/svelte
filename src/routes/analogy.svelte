@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Analogy</title>
+	<title>Analogy - Svelter</title>
 </svelte:head>
 
 <main>
@@ -53,6 +53,11 @@
 
 	.text-inputs div {
 		margin: 1rem 0;
+	}
+
+	.radio-group,
+	.text-inputs {
+		text-align: center;
 	}
 
 	label {
