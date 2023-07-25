@@ -1,6 +1,6 @@
 <nav>
 	<ul>
-		<li><a href="/"><h1>Svelter</h1></a></li>
+		<li><a href="/"><h1>Svelte</h1></a></li>
 		<li><a href="/pager">Pager</a></li>
 		<li><a href="/todo">Todo</a></li>
 		<li><a href="/languages">Languages</a></li>

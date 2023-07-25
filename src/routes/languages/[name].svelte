@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Language - {$page.params.name} - Svelter</title>
+	<title>Language - {$page.params.name} - Svelte</title>
 </svelte:head>
 
 <h3>

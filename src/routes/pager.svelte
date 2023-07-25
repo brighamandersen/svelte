@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-	<title>Pager - Svelter</title>
+	<title>Pager - Svelte</title>
 </svelte:head>
 
 <h1>Choose a page</h1>

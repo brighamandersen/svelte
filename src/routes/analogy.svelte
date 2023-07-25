@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Analogy - Svelter</title>
+	<title>Analogy - Svelte</title>
 </svelte:head>
 
 <main>
